@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <title>Catálogo de Jogos</title>
+</head>
+
+<input type="text" id="txtName" placeholder="Nome">
+<br>
+<input type="text" id="txtGenre" placeholder="Gênero">
+<br>
+<input type="text" id="txtPublisher" placeholder="Publisher">
+<br>
+<button id="btnSave" onclick="save()">Cadastrar</button>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCnU8Ut-kF46bXKCulhwBqSxBiaE69z5i4",
+    authDomain: "gamecatalog-2c70e.firebaseapp.com",
+    databaseURL: "gamecatalog-2c70e.firebaseio.com",
+    storageBucket: "gamecatalog-2c70e.appspot.com",
+    messagingSenderId: "1096992840649"
+  };
+  firebase.initializeApp(config);
+</script>
