@@ -2,8 +2,8 @@
 function save() {
 //save values
 var publisher = {
-    name: o-nome-da-publisher,
-    country: o-país-da-publisher }
+    name: document.getElementById("txtName").value,
+    country:document.getElementById("txtCountry").value }
 //alert box
     alert("Pulisher salva com sucesso");
  //firebase
